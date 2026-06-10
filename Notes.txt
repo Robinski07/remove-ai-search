@@ -1,0 +1,7 @@
+When URL is entered, add -ai at the end:
+
+Example:
+https://www.google.com/search?q=powershell+tipps
+
+Add -ai:
+https://www.google.com/search?q=powershell+tipps+-ai

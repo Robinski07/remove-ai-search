@@ -1,10 +1,13 @@
 {
-  "name": "Remove AI Search",
-  "description": "Base Level Extension",
-  "version": "1.0",
   "manifest_version": 3,
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": "icon.png"
-  }
+  "name": "Remove AI Search",
+  "description": "This extension removes the AI search feature from Google search.",
+  "version": "0.1",
+  "icons": {
+    "128": "icon-128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["scripting", "activeTab"]
 }
